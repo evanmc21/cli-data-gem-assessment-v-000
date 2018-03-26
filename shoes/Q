@@ -1,0 +1,120 @@
+=> [1;34m#(Element:0xcfe568 {[0m
+  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+  attributes = [
+    [1;34m#(Attr:0xe790dc {[0m
+      name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m,
+      value = [31m[1;31m"[0m[31m/collections/shoes/products/the-jude-boot-in-cognac[1;31m"[0m[31m[0m
+      }),
+    [1;34m#(Attr:0xe790a0 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mgrid-product__meta[1;31m"[0m[31m[0m })],
+  children = [
+    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m),
+    [1;34m#(Element:0xe54174 {[0m
+      name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+      attributes = [
+        [1;34m#(Attr:0xe50c04 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mgrid-product__title[1;31m"[0m[31m[0m })],
+      children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mThe Jude Boot in Cognac[1;31m"[0m[31m[0m)]
+      }),
+    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m),
+    [1;34m#(Element:0xe21bd4 {[0m
+      name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+      attributes = [
+        [1;34m#(Attr:0xe1def8 {[0m
+          name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m,
+          value = [31m[1;31m"[0m[31mgrid-product__price-wrap[1;31m"[0m[31m[0m
+          })],
+      children = [
+        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m        [1;31m"[0m[31m[0m),
+        [1;34m#(Element:0xdefc38 {[0m
+          name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+          attributes = [
+            [1;34m#(Attr:0xdeeef0 {[0m
+              name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m,
+              value = [31m[1;31m"[0m[31mgrid-product__price[1;31m"[0m[31m[0m
+              })],
+          children = [
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m          [1;35m\n[0m[31m             [1;31m"[0m[31m[0m),
+            [1;34m#(Element:0xdba09c {[0m
+              name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+              attributes = [
+                [1;34m#(Attr:0xdb8e68 {[0m
+                  name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m,
+                  value = [31m[1;31m"[0m[31mvisually-hidden[1;31m"[0m[31m[0m
+                  })],
+              children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mRegular price[1;31m"[0m[31m[0m)]
+              }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m          [1;35m\n[0m[31m          [1;35m\n[0m[31m            $ 295[1;35m\n[0m[31m          [1;35m\n[0m[31m        [1;31m"[0m[31m[0m)]
+          }),
+        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m)]
+      }),
+    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;35m\n[0m[31m      [1;31m"[0m[31m[0m),
+    [1;34m#(Element:0xd71f40 {[0m
+      name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+      attributes = [
+        [1;34m#(Attr:0xd712d4 {[0m
+          name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m,
+          value = [31m[1;31m"[0m[31mstamped-product-reviews-badge[1;31m"[0m[31m[0m
+          }),
+        [1;34m#(Attr:0xd712c0 {[0m name = [31m[1;31m"[0m[31mdata-id[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m9570497094[1;31m"[0m[31m[0m }),
+        [1;34m#(Attr:0xd712ac {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdisplay:block;[1;31m"[0m[31m[0m })],
+      children = [
+        [1;34m#(Element:0xd45f08 {[0m
+          name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+          attributes = [
+            [1;34m#(Attr:0xd45134 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mstamped-badge[1;31m"[0m[31m[0m }),
+            [1;34m#(Attr:0xd45120 {[0m
+              name = [31m[1;31m"[0m[31mdata-rating[1;31m"[0m[31m[0m,
+              value = [31m[1;31m"[0m[31m4.94117647058824[1;31m"[0m[31m[0m
+              })],
+          children = [
+            [1;34m#(Element:0xd2b93c {[0m
+              name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+              attributes = [
+                [1;34m#(Attr:0xd2aec4 {[0m
+                  name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m,
+                  value = [31m[1;31m"[0m[31mstamped-starrating stamped-badge-starrating[1;31m"[0m[31m[0m
+                  })],
+              children = [
+                [1;34m#(Element:0xd0fb10 {[0m
+                  name = [31m[1;31m"[0m[31mi[1;31m"[0m[31m[0m,
+                  attributes = [
+                    [1;34m#(Attr:0xd0e5a8 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mfa fa-star[1;31m"[0m[31m[0m })]
+                  }),
+                [1;34m#(Element:0xce8e70 {[0m
+                  name = [31m[1;31m"[0m[31mi[1;31m"[0m[31m[0m,
+                  attributes = [
+                    [1;34m#(Attr:0xce8254 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mfa fa-star[1;31m"[0m[31m[0m })]
+                  }),
+                [1;34m#(Element:0xcd643c {[0m
+                  name = [31m[1;31m"[0m[31mi[1;31m"[0m[31m[0m,
+                  attributes = [
+                    [1;34m#(Attr:0xccf790 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mfa fa-star[1;31m"[0m[31m[0m })]
+                  }),
+                [1;34m#(Element:0xcc8738 {[0m
+                  name = [31m[1;31m"[0m[31mi[1;31m"[0m[31m[0m,
+                  attributes = [
+                    [1;34m#(Attr:0xcc54fc {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mfa fa-star[1;31m"[0m[31m[0m })]
+                  }),
+                [1;34m#(Element:0xcad028 {[0m
+                  name = [31m[1;31m"[0m[31mi[1;31m"[0m[31m[0m,
+                  attributes = [
+                    [1;34m#(Attr:0xcabebc {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mfa fa-star[1;31m"[0m[31m[0m })]
+                  })]
+              }),
+            [1;34m#(Element:0xc9b968 {[0m
+              name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+              attributes = [
+                [1;34m#(Attr:0xc9a694 {[0m
+                  name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m,
+                  value = [31m[1;31m"[0m[31mstamped-badge-caption[1;31m"[0m[31m[0m
+                  }),
+                [1;34m#(Attr:0xc9a680 {[0m name = [31m[1;31m"[0m[31mdata-reviews[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m51[1;31m"[0m[31m[0m }),
+                [1;34m#(Attr:0xc9a66c {[0m
+                  name = [31m[1;31m"[0m[31mdata-rating[1;31m"[0m[31m[0m,
+                  value = [31m[1;31m"[0m[31m4.94117647058824[1;31m"[0m[31m[0m
+                  })],
+              children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m51[1;31m"[0m[31m[0m)]
+              })]
+          })]
+      }),
+    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m)]
+  })
