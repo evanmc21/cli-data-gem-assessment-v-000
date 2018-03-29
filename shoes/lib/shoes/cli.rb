@@ -1,6 +1,7 @@
 require 'pry'
 class Shoes::CLI
   def call
+
     puts "Aloha! This is the best place to find the hottest men's kicks. Let's get some shoes!"
     list_shoe_collection
     specifics
@@ -11,9 +12,9 @@ class Shoes::CLI
     puts ""
     puts "Check out the wide variety of high quality men's shoes."
 
-    @all_shoes = Shoes::Shoe_list.shoes.flatten
+    @all_shoes = Shoes::Shoe_list.shoes
 
-    @all_shoes.each do |shoe|
+    @all_shoes[0].each do |shoe|
       puts ""
       puts "#{shoe.name} - #{shoe.price}"
 

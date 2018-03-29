@@ -5,28 +5,10 @@ class Shoes::Shoe_list
 
 def self.shoes
 
-  all_shoes = []
-
-  all_shoes << self.scrape_shoes_brown
-  all_shoes << self.scrape_shoes_black
-  all_shoes << self.scrape_shoes_oxblood
-  all_shoes << self.scrape_shoes_grey
-  all_shoes << self.scrape_shoes_shoe
-  all_shoes << self.scrape_shoes_boot
-  all_shoes << self.scrape_shoes_chelsea
-  all_shoes << self.scrape_shoes_six
-  all_shoes << self.scrape_shoes_seven
-  all_shoes << self.scrape_shoes_eight
-  all_shoes << self.scrape_shoes_nine
-  all_shoes << self.scrape_shoes_ten
-  all_shoes << self.scrape_shoes_eleven
-  all_shoes << self.scrape_shoes_twelve
-  all_shoes << self.scrape_shoes_thirteen
-  all_shoes << self.scrape_shoes_fourteen
-  all_shoes << self.scrape_shoes_fifteen
+    all_shoes = []
+    all_shoes << self.scrape_all_shoes
 
   all_shoes
-
 end
 
 
@@ -41,7 +23,18 @@ def self.scrape_shoes(input)
 shoes
 end
 
+def self.scrape_all_shoes
 
+  doc = Nokogiri::HTML(open("https://taftclothing.com/collections/shoes"))
+
+  doc.css("a.grid-product__meta").collect do |shoe_name|
+
+  all = self.new 
+  all.name = shoe_name.css("span.grid-product__title").text
+  all.price = shoe_name.css("span.grid-product__price").text.gsub("  ", "").delete!("\n")
+  all
+end
+end
 
 def self.scrape_shoes_brown
 
