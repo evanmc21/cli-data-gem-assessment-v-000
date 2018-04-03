@@ -44,7 +44,6 @@ class Shoes::CLI
 
     input = nil
     while input != "bye felicia"
-
     input = gets.strip.downcase
     case input
     when "brown", "black", "oxblood", "grey",
