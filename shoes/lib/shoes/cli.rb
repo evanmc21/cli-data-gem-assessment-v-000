@@ -53,7 +53,7 @@ class Shoes::CLI
          list_shoes(input)
          puts ""
          puts "Choose another shoe size, color, material, or type."
-      elsif
+      else 
         input == "bye felicia"
         see_ya
       else
