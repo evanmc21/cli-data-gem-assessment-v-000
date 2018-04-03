@@ -46,9 +46,9 @@ class Shoes::CLI
     while input != "bye felicia"
     input = gets.strip.downcase
     case input
-    when "brown", "black", "oxblood", "grey",
-         "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",
-         "leather", "suede", "weave", "wool", "shoe", "boot", "chelsea"
+    when "brown", "black", "oxblood", "grey"
+        #  "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",
+        #  "leather", "suede", "weave", "wool", "shoe", "boot", "chelsea"
          list_shoes(input)
          puts ""
          puts "Choose another shoe size, color, material, or type."
